@@ -247,6 +247,97 @@ nav ul > li a:hover {
   bottom: 3px;
 }
 
+.skills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  position: relative;
+}
+
+.skills-graph {
+  position: relative;
+}
+
+.icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: all 1s ease-in-out;
+  transform: rotate(360deg);
+  scale: 2;
+  opacity: 0;
+}
+
+.seen {
+  transform: rotate(0deg);
+  scale: 1;
+  opacity: 1;
+}
+
+.html {
+  top: -4%;
+  left: 35%;
+}
+
+.css {
+  top: -4%;
+  left: 40.7%;
+}
+
+.js {
+  top: -4%;
+  left: 45.3%;
+}
+
+.react {
+  top: -4%;
+  left: 51%;
+}
+
+.vue {
+  top: -4%;
+  left: 56.5%;
+}
+
+.c {
+  top: -4%;
+  left: 61.5%;
+}
+
+.node {
+  top: -12%;
+  left: 35%;
+}
+
+.git {
+  top: -12%;
+  left: 40.7%;
+}
+
+.gh {
+  top: -12%;
+  left: 45.3%;
+  filter: brightness(20);
+}
+
+.scss {
+  top: -12%;
+  left: 51%;
+}
+
+.linux {
+  top: -12%;
+  left: 56.5%;
+}
+
+.figma {
+  top: -12%;
+  left: 61.5%;
+}
+
 main {
   width: 70%;
   display: flex;

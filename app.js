@@ -11,3 +11,12 @@ window.addEventListener("scroll", function () {
     }
   });
   
+window.addEventListener("scroll", function () {
+    let icons = document.querySelectorAll('.icons');
+    let triggerpoint2 = 850;
+    if (window.scrollY > triggerpoint2) {
+        icons.forEach((icon)=>icon.classList.add("seen"));
+    } else {
+        icons.forEach((icon)=>icon.classList.remove("seen"));
+    }
+});
