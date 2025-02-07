@@ -83,8 +83,8 @@ nav ul > li a:hover {
 
 .oval {
   position: absolute;
-  left: 137px;
-  top: 25px;
+  left: 145px;
+  top: 26px;
   transform: rotate(-7deg);
   width: 135px;
   height: 60px;
@@ -114,18 +114,18 @@ nav ul > li a:hover {
 
 @keyframes neonPulse {
   0% {
-    text-shadow: 0 0 3px #00F5A0, 0 0 8px #00F5A0, 0 0 12px #00F5A0, 0 0 18px #00F5A0;
+    text-shadow: 0 0 3px #00F5A0, 0 0 1px #00F5A0, 0 0 1px #00F5A0, 0 0 4px #00F5A0;
   }
   50% {
-    text-shadow: 0 0 4px #00F5A0, 0 0 10px #00F5A0, 0 0 15px #00F5A0, 0 0 22px #7127BA;
+    text-shadow: 0 0 4px #00F5A0, 0 0 3px #00F5A0, 0 0 3px #00F5A0, 0 0 40px #7127BA;
   }
   100% {
-    text-shadow: 0 0 3px #00F5A0, 0 0 8px #00F5A0, 0 0 12px #00F5A0, 0 0 18px #00F5A0;
+    text-shadow: 0 0 3px #00F5A0, 0 0 1px #00F5A0, 0 0 1px #00F5A0, 0 0 4px #00F5A0;
   }
 }
 .glow {
   color: #00F5A0;
-  animation: neonPulse 2s infinite ease-in-out;
+  animation: neonPulse 3s infinite ease-in;
 }
 
 .centerSide {
@@ -149,12 +149,12 @@ nav ul > li a:hover {
 }
 
 .arrow {
-  left: 20%;
+  left: 210px;
   top: -10%;
 }
 
 .name {
-  left: 29.5%;
+  left: 315px;
   top: -6%;
 }
 
