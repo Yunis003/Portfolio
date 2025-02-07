@@ -344,6 +344,31 @@ main {
   flex-direction: column;
 }
 
+footer {
+  margin-top: 50px;
+  width: 70%;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.footer-txts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact {
+  text-decoration: none;
+  color: #00F5A0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
