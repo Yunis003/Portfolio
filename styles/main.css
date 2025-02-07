@@ -203,7 +203,7 @@ nav ul > li a:hover {
 .shadow {
   filter: opacity(1);
   background-color: #FFD700;
-  box-shadow: 0 0 100px #EBEBFF;
+  box-shadow: 0 0 300px #EBEBFF;
 }
 
 .experience-box {
@@ -216,6 +216,14 @@ nav ul > li a:hover {
   justify-content: center;
   align-items: center;
   gap: 14px;
+  transition: all 2s ease-in-out;
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+.boxes {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .experience-txt {
