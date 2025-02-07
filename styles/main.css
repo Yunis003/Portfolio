@@ -186,6 +186,24 @@ nav ul > li a:hover {
   -moz-column-gap: 16px;
        column-gap: 16px;
   row-gap: 16px;
+  position: relative;
+}
+
+.background-circle {
+  position: absolute;
+  width: 350px;
+  height: 290px;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: #FFD700;
+  filter: opacity(0.2);
+  transition: all 1.5s ease-in-out;
+}
+
+.shadow {
+  filter: opacity(1);
+  background-color: #FFD700;
+  box-shadow: 0 0 100px #EBEBFF;
 }
 
 .experience-box {
