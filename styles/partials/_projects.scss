@@ -9,6 +9,7 @@
     color: #FFF;
 }
 .project{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -125,5 +126,4 @@
   .github {
     text-decoration:underline;
     animation: lights 5s 750ms linear infinite;
-
   }

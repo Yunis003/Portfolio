@@ -7,6 +7,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .innerLinks {
@@ -36,6 +37,27 @@ nav ul > li a {
 }
 nav ul > li a:hover {
   color: #FFD700;
+}
+
+@keyframes lights {
+  0% {
+    filter: drop-shadow(0 0 1em hsla(320, 100%, 50%, 0.2)) drop-shadow(0 0 0.125em hsla(320, 100%, 60%, 0.3)) drop-shadow(-1em -0.125em 0.5em hsla(40, 100%, 60%, 0)) drop-shadow(1em 0.125em 0.5em hsla(200, 100%, 60%, 0));
+  }
+  30% {
+    filter: drop-shadow(0 0 1em hsla(320, 100%, 50%, 0.5)) drop-shadow(0 0 0.125em hsla(320, 100%, 60%, 0.5)) drop-shadow(-0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2)) drop-shadow(0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4));
+  }
+  40% {
+    filter: drop-shadow(0 0 1em hsla(320, 100%, 50%, 0.5)) drop-shadow(0 0 0.125em hsla(320, 100%, 60%, 0.5)) drop-shadow(-0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2)) drop-shadow(0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4));
+  }
+  70% {
+    filter: drop-shadow(0 0 1em hsla(320, 100%, 50%, 0.5)) drop-shadow(0 0 0.125em hsla(320, 100%, 60%, 0.5)) drop-shadow(0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2)) drop-shadow(-0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4));
+  }
+  100% {
+    filter: drop-shadow(0 0 1em hsla(320, 100%, 50%, 0.2)) drop-shadow(0 0 0.125em hsla(320, 100%, 60%, 0.3)) drop-shadow(1em -0.125em 0.5em hsla(40, 100%, 60%, 0)) drop-shadow(-1em 0.125em 0.5em hsla(200, 100%, 60%, 0));
+  }
+}
+.ghHeader {
+  filter: drop-shadow(0 0 60px #7127BA);
 }
 
 .about-me {
@@ -350,6 +372,7 @@ nav ul > li a:hover {
 }
 
 .project {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
