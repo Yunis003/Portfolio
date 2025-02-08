@@ -39,7 +39,7 @@ nav ul{
 }
 
 
-@keyframes lights {
+@keyframes lights1 {
     0% {
         filter: drop-shadow(0 0 1em hsla(320, 100%, 50%, 0.2))
                 drop-shadow(0 0 0.125em hsla(320, 100%, 60%, 0.3))
@@ -69,6 +69,138 @@ nav ul{
                 drop-shadow(0 0 0.125em hsla(320, 100%, 60%, 0.3))
                 drop-shadow(1em -0.125em 0.5em hsla(40, 100%, 60%, 0))
                 drop-shadow(-1em 0.125em 0.5em hsla(200, 100%, 60%, 0));
+    }
+}
+
+@keyframes lights2 {
+    0% {
+        filter: drop-shadow(0 0 1em hsla(120, 100%, 50%, 0.2))
+                drop-shadow(0 0 0.125em hsla(120, 100%, 60%, 0.3))
+                drop-shadow(-1em -0.125em 0.5em hsla(60, 100%, 60%, 0))
+                drop-shadow(1em 0.125em 0.5em hsla(240, 100%, 60%, 0));
+    }
+    30% {
+        filter: drop-shadow(0 0 1em hsla(120, 100%, 50%, 0.5))
+                drop-shadow(0 0 0.125em hsla(120, 100%, 60%, 0.5))
+                drop-shadow(-0.5em -0.125em 0.25em hsla(60, 100%, 60%, 0.2))
+                drop-shadow(0.5em 0.125em 0.25em hsla(240, 100%, 60%, 0.4));
+    }
+    40% {
+        filter: drop-shadow(0 0 1em hsla(120, 100%, 50%, 0.5))
+                drop-shadow(0 0 0.125em hsla(120, 100%, 60%, 0.5))
+                drop-shadow(-0.25em -0.125em 0.125em hsla(60, 100%, 60%, 0.2))
+                drop-shadow(0.25em 0.125em 0.125em hsla(240, 100%, 60%, 0.4));
+    }
+    70% {
+        filter: drop-shadow(0 0 1em hsla(120, 100%, 50%, 0.5))
+                drop-shadow(0 0 0.125em hsla(120, 100%, 60%, 0.5))
+                drop-shadow(0.5em -0.125em 0.25em hsla(60, 100%, 60%, 0.2))
+                drop-shadow(-0.5em 0.125em 0.25em hsla(240, 100%, 60%, 0.4));
+    }
+    100% {
+        filter: drop-shadow(0 0 1em hsla(120, 100%, 50%, 0.2))
+                drop-shadow(0 0 0.125em hsla(120, 100%, 60%, 0.3))
+                drop-shadow(1em -0.125em 0.5em hsla(60, 100%, 60%, 0))
+                drop-shadow(-1em 0.125em 0.5em hsla(240, 100%, 60%, 0));
+    }
+}
+
+@keyframes lights3 {
+    0% {
+        filter: drop-shadow(0 0 1em hsla(220, 100%, 50%, 0.2))
+                drop-shadow(0 0 0.125em hsla(220, 100%, 60%, 0.3))
+                drop-shadow(-1em -0.125em 0.5em hsla(80, 100%, 60%, 0))
+                drop-shadow(1em 0.125em 0.5em hsla(280, 100%, 60%, 0));
+    }
+    30% {
+        filter: drop-shadow(0 0 1em hsla(220, 100%, 50%, 0.5))
+                drop-shadow(0 0 0.125em hsla(220, 100%, 60%, 0.5))
+                drop-shadow(-0.5em -0.125em 0.25em hsla(80, 100%, 60%, 0.2))
+                drop-shadow(0.5em 0.125em 0.25em hsla(280, 100%, 60%, 0.4));
+    }
+    40% {
+        filter: drop-shadow(0 0 1em hsla(220, 100%, 50%, 0.5))
+                drop-shadow(0 0 0.125em hsla(220, 100%, 60%, 0.5))
+                drop-shadow(-0.25em -0.125em 0.125em hsla(80, 100%, 60%, 0.2))
+                drop-shadow(0.25em 0.125em 0.125em hsla(280, 100%, 60%, 0.4));
+    }
+    70% {
+        filter: drop-shadow(0 0 1em hsla(220, 100%, 50%, 0.5))
+                drop-shadow(0 0 0.125em hsla(220, 100%, 60%, 0.5))
+                drop-shadow(0.5em -0.125em 0.25em hsla(80, 100%, 60%, 0.2))
+                drop-shadow(-0.5em 0.125em 0.25em hsla(280, 100%, 60%, 0.4));
+    }
+    100% {
+        filter: drop-shadow(0 0 1em hsla(220, 100%, 50%, 0.2))
+                drop-shadow(0 0 0.125em hsla(220, 100%, 60%, 0.3))
+                drop-shadow(1em -0.125em 0.5em hsla(80, 100%, 60%, 0))
+                drop-shadow(-1em 0.125em 0.5em hsla(280, 100%, 60%, 0));
+    }
+}
+
+@keyframes lights4 {
+    0% {
+        filter: drop-shadow(0 0 1em hsla(420, 100%, 50%, 0.2))
+                drop-shadow(0 0 0.125em hsla(420, 100%, 60%, 0.3))
+                drop-shadow(-1em -0.125em 0.5em hsla(140, 100%, 60%, 0))
+                drop-shadow(1em 0.125em 0.5em hsla(380, 100%, 60%, 0));
+    }
+    30% {
+        filter: drop-shadow(0 0 1em hsla(420, 100%, 50%, 0.5))
+                drop-shadow(0 0 0.125em hsla(420, 100%, 60%, 0.5))
+                drop-shadow(-0.5em -0.125em 0.25em hsla(140, 100%, 60%, 0.2))
+                drop-shadow(0.5em 0.125em 0.25em hsla(380, 100%, 60%, 0.4));
+    }
+    40% {
+        filter: drop-shadow(0 0 1em hsla(420, 100%, 50%, 0.5))
+                drop-shadow(0 0 0.125em hsla(420, 100%, 60%, 0.5))
+                drop-shadow(-0.25em -0.125em 0.125em hsla(140, 100%, 60%, 0.2))
+                drop-shadow(0.25em 0.125em 0.125em hsla(380, 100%, 60%, 0.4));
+    }
+    70% {
+        filter: drop-shadow(0 0 1em hsla(420, 100%, 50%, 0.5))
+                drop-shadow(0 0 0.125em hsla(420, 100%, 60%, 0.5))
+                drop-shadow(0.5em -0.125em 0.25em hsla(140, 100%, 60%, 0.2))
+                drop-shadow(-0.5em 0.125em 0.25em hsla(380, 100%, 60%, 0.4));
+    }
+    100% {
+        filter: drop-shadow(0 0 1em hsla(420, 100%, 50%, 0.2))
+                drop-shadow(0 0 0.125em hsla(420, 100%, 60%, 0.3))
+                drop-shadow(1em -0.125em 0.5em hsla(140, 100%, 60%, 0))
+                drop-shadow(-1em 0.125em 0.5em hsla(380, 100%, 60%, 0));
+    }
+}
+
+@keyframes lights5 {
+    0% {
+        filter: drop-shadow(0 0 1em hsla(520, 100%, 50%, 0.2))
+                drop-shadow(0 0 0.125em hsla(520, 100%, 60%, 0.3))
+                drop-shadow(-1em -0.125em 0.5em hsla(180, 100%, 60%, 0))
+                drop-shadow(1em 0.125em 0.5em hsla(480, 100%, 60%, 0));
+    }
+    30% {
+        filter: drop-shadow(0 0 1em hsla(520, 100%, 50%, 0.5))
+                drop-shadow(0 0 0.125em hsla(520, 100%, 60%, 0.5))
+                drop-shadow(-0.5em -0.125em 0.25em hsla(180, 100%, 60%, 0.2))
+                drop-shadow(0.5em 0.125em 0.25em hsla(480, 100%, 60%, 0.4));
+    }
+    40% {
+        filter: drop-shadow(0 0 1em hsla(520, 100%, 50%, 0.5))
+                drop-shadow(0 0 0.125em hsla(520, 100%, 60%, 0.5))
+                drop-shadow(-0.25em -0.125em 0.125em hsla(180, 100%, 60%, 0.2))
+                drop-shadow(0.25em 0.125em 0.125em hsla(480, 100%, 60%, 0.4));
+    }
+    70% {
+        filter: drop-shadow(0 0 1em hsla(520, 100%, 50%, 0.5))
+                drop-shadow(0 0 0.125em hsla(520, 100%, 60%, 0.5))
+                drop-shadow(0.5em -0.125em 0.25em hsla(180, 100%, 60%, 0.2))
+                drop-shadow(-0.5em 0.125em 0.25em hsla(480, 100%, 60%, 0.4));
+    }
+    100% {
+        filter: drop-shadow(0 0 1em hsla(520, 100%, 50%, 0.2))
+                drop-shadow(0 0 0.125em hsla(520, 100%, 60%, 0.3))
+                drop-shadow(1em -0.125em 0.5em hsla(180, 100%, 60%, 0))
+                drop-shadow(-1em 0.125em 0.5em hsla(480, 100%, 60%, 0));
     }
 }
 .ghHeader{
