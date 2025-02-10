@@ -13,7 +13,7 @@ window.addEventListener("scroll", function () {
   
 window.addEventListener("scroll", function () {
     let icons = document.querySelectorAll('.icons');
-    let triggerpoint2 = 850;
+    let triggerpoint2 = 450;
     if (window.scrollY > triggerpoint2) {
         icons.forEach((icon)=>icon.classList.add("seen"));
     } else {
